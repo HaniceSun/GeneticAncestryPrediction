@@ -68,6 +68,7 @@ The essential output is the PCs of the PCA for each sample, which is used as inp
 
 - Machine learning prediction on the first 20 PCs from the PCA analysis
 
+```
 1. doing machine learning prediction using scikit-learn (13-AncestryML.py), 
 
 with config files (Config01.yaml and Config02.yaml, for super population and population respectively)
@@ -75,5 +76,6 @@ with config files (Config01.yaml and Config02.yaml, for super population and pop
 After evaluating multiple models, such as random forest, random forest with balanced weights, SVM, XGBoost, KNN, GNB, etc., 
 
 we moved forward with the random forest with balanced weights, which archived 99% and 90% accuracy for super population and population prediction.
+```
 
 ----------
