@@ -55,8 +55,18 @@ The essential output is the PCs of the PCA for each sample, which is used as inp
 
 doing machine learning prediction using scikit-learn (13-AncestryML.py), with config files (Config01.yaml and Config02.yaml, for super population and population respectively)
 
-After evaluating multiple models, such as random forest, random forest with balanced weights, SVM, XGBoost, KNN, GNB, etc., 
+After evaluating multiple models, such as random forest, random forest with balanced weights, SVM, XGBoost, KNN, GNB, etc., using 10 fold cross validation
 
 we moved forward with the random forest with balanced weights, which achieved 99% and 90% accuracy for super population and population prediction.
+
+----------
+
+## Step 6: visualize ancestry prediction using donut plot
+
+visualize the prediction using donut plot, with the inner circle showing the probability of each population and the outer circle showing the probability of each super population.
+
+![HIPP100_DonutPlot.svg](HIPP100_DonutPlot.svg)
+
+
 
 ----------
