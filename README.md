@@ -63,7 +63,7 @@ we moved forward with the random forest with balanced weights, which achieved 99
 
 ## Step 6: visualize ancestry prediction using donut plot
 
-visualize the prediction using donut plot, with the inner circle showing the probability of each population and the outer circle showing the probability of each super population.
+visualize the prediction using donut plot (14-DonutPlot.py), with the inner circle showing the probability of each population and the outer circle showing the probability of each super population.
 
 ![HIPP100_DonutPlot.svg](HIPP100_DonutPlot.svg)
 
