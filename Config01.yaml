@@ -13,8 +13,7 @@ model_selection_n_splits: 10
 train: True
 train_model_names: ['RFb']
 #train_feature_selection_methods:  ['KBest', 'RFE', 'RFECV', 'SFM', 'PCA']
-train_feature_selection_methods:  ['KBest', 'RFE', 'RFECV', 'SFM', 'PCA']
-#train_feature_selection_methods:  ['None']
+train_feature_selection_methods:  ['None']
 confusion_matrix: False
 
 test: True
