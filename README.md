@@ -4,8 +4,7 @@ Han Sun, PhD, Gloyn Lab, Stanford University
 
 ----------
 
-
-- Outline: the pipeline
+## Outline: the pipeline
 
 ![Pipeline.png](Pipeline.png)
 
@@ -39,29 +38,22 @@ Han Sun, PhD, Gloyn Lab, Stanford University
 ## Step 3: merge the training dataset and the imputed genotyping dataset
 
 
-merge the datasets using the script (11-MergeDatasets.py), 
-
-based on the [post](https://martha-labbook.netlify.app/posts/extracting-data-for-variants-common-in-both-file-sets/) to handle multiple positions and alleles. 
+merge the datasets using the script (11-MergeDatasets.py), based on the [post](https://martha-labbook.netlify.app/posts/extracting-data-for-variants-common-in-both-file-sets/) to handle multiple positions and alleles. 
 
 
 ----------
 
 ## Step 4: PCA analysis of the merged dataset
 
-doing the PCA analysis on the merged dataset using the R package bigsnpr, 
-
-including relatedness testing and outlier detection (12-PCA.R)
+doing the PCA analysis on the merged dataset using the R package bigsnpr, including relatedness testing and outlier detection (12-PCA.R)
 
 The essential output is the PCs of the PCA for each sample, which is used as input for the machine learning prediction.
-
 
 ----------
 
 ## Step 5: Machine learning prediction on the first 20 PCs from the PCA analysis
 
-doing machine learning prediction using scikit-learn (13-AncestryML.py), 
-
-with config files (Config01.yaml and Config02.yaml, for super population and population respectively)
+doing machine learning prediction using scikit-learn (13-AncestryML.py), with config files (Config01.yaml and Config02.yaml, for super population and population respectively)
 
 After evaluating multiple models, such as random forest, random forest with balanced weights, SVM, XGBoost, KNN, GNB, etc., 
 
