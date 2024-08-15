@@ -51,7 +51,7 @@ The essential output is the PCs of the PCA for each sample, which is used as inp
 
 ----------
 
-## Step 5: Machine learning prediction on the first 20 PCs from the PCA analysis
+## Step 5: machine learning prediction on the first 20 PCs from the PCA analysis
 
 doing machine learning prediction using scikit-learn (13-AncestryML.py), with config files (Config01.yaml and Config02.yaml, for super population and population respectively)
 
