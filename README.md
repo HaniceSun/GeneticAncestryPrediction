@@ -61,14 +61,13 @@ we moved forward with the random forest with balanced weights, which achieved 99
 
 ----------
 
-## Step 6: visualize ancestry prediction using donut and sankey plot
+## Step 6: visualize ancestry prediction using sankey and donut plot
 
-visualize the prediction of individual donor using donut plot ([14-DonutPlot.py](14-DonutPlot.py)), with the inner circle showing the probability of each population and the outer circle showing the probability of each super population. compare self-reported race and predicted ancestry using sankey plot.
-
-![HIPP100_DonutPlot.svg](HIPP100_DonutPlot.svg)
+compare self-reported race and predicted ancestry using sankey plot. visualize individual donor using donut plot ([14-DonutPlot.py](14-DonutPlot.py)), with the inner circle showing the probability of each population and the outer circle showing the probability of each super population. 
 
 ![SankeyPlot.png](SankeyPlot.png)
 
+![HIPP100_DonutPlot.svg](HIPP100_DonutPlot.svg)
 
 
 ----------
